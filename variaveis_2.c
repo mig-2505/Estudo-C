@@ -30,6 +30,14 @@ int main(){
     char let2 = 'B'; 
     char let3 = 'C';
     printf("As letras são: %c, %c e %c\n", let1, let2, let3); // Imprimindo as letras
+
+//Casas após virgula
+    float ex1 = 5.5; // Variável float (número com casas decimais)
+    printf("%f\n", ex1); // Imprimindo o valor de ex1 com 6 digitos
+    printf("%.2f\n", ex1); // Imprimindo o valor de ex1 com 2 casas decimais
+    printf("%.3f\n", ex1); // Imprimindo o valor de ex1 com 3 casas decimais
+    printf("%.4f\n", ex1); // Imprimindo o valor de ex1 com 4 casas decimais
+    printf("%.5f\n", ex1); // Imprimindo o valor de ex1 com 5 casas decimais
 }
 
  
